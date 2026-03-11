@@ -8,14 +8,14 @@ public class Primefact{
         System.out.println("enter the number:");
         int n = sc.nextInt();
 
-        for (int div = 2; div * div <= n; div ++){
-            while( n % div == 0){
+        for( int div = 2; div * div <= n; div ++){
+            while(n % div == 0){
                 n = n / div;
-                System.out.println(div + " ");
+                System.out.println(div+"");
             }
         }
         if(n != 1){
             System.out.println(n);
         }
-    }
+}
 }
