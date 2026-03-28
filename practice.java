@@ -1,3 +1,13 @@
+/*Sum of Two Numbers
+Input:
+
+3 4
+
+Output:
+
+7*/
+
+
 import java.util.*;
 
 public class practice {
