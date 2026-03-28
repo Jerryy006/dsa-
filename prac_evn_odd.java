@@ -4,7 +4,7 @@ public class prac_evn_odd{
 
     public static void main(String[]args){
 
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);4
         System.out.println("enter any number:");
         int a = sc.nextInt();
 

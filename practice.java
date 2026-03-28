@@ -1,26 +1,23 @@
-/*Sum of Two Numbers
-Input:
-
-3 4
-
-Output:
-
-7*/
-
+/*find maximum of two inputs*/
 
 import java.util.*;
 
-public class practice {
+public class practice{
 
-    public static void main(String[] args) {
+    public static void main(String[]args){
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter two numbers:");
+        System.out.println("enter any numbers:");
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        int c = a+b;
+        if (a>b){
+            System.out.println("the number" +a+ "is greater");
+        }
+        else{
+            System.out.println("the number" +b+ "greater");
+        }
 
-        System.out.println(c);
+
     }
 }
